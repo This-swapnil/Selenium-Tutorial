@@ -1,4 +1,4 @@
-package com.example.actions;
+package com.example.mouseActions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
