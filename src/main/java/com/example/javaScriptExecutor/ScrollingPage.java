@@ -41,7 +41,7 @@ public class ScrollingPage {
 
         Thread.sleep(3000);
 
-        // 4 ->
+        // 4 -> scroll page again top
         js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
         System.out.println("Pixels to: " + js.executeScript("return window.pageYOffset;", ""));
 
